@@ -23,4 +23,4 @@ I started my best journey in a programming language.
 
 
 My notes on the journey are available at:
-* **[Nim for Bioinformatics](https://andrea-telatin.gitbook.io/nim-bioinformatics/)**
+* 📙 **[Nim for Bioinformatics](https://telatin.github.io/nim-for-bioinformatics/)**

@@ -25,4 +25,6 @@ To allow the creation of `x86` terminals, you can add to your `settings.json` (`
     }
   ```
   
-  
+ When this takes effect, you will be able to select the "x86 zsh" terminal from the dropdown menu:
+ 
+ ![screenshot of VS Code terminal menu]({{ site.baseurl }}/images/rosetta-term.png)

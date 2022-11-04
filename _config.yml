@@ -28,7 +28,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   twitter: telatin
   stackoverflow: users/5467494/andrea-t
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube: AndreaTelatin
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
@@ -74,6 +74,8 @@ sass:
 
 # Use the following plug-ins
 plugins:
+  - jekyll-gist
+  - jemoji
   - jekyll-gist
 
 gems:

@@ -1,24 +1,26 @@
+
+	
+{% if site.gtag4 %}
+<!-- Google tag (gtag.js), e.g. telatin/G-Q12CPTSQDT -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gtag4 }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.gtag4 }}');
+</script>
+{% endif %}
+
 {% if site.google_analytics %}
-
-<!-- Google tag (gtag.js) GA4 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q12CPTSQDT"></script>
+<!-- Google tag (gtag.js) legacy, e.g. telatin/UA-185637-20 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-Q12CPTSQDT');
+  gtag('config', '{{ site.google_analytics }}');
+
 </script>
-
-<!-- Google tag (gtag.js) Universal? -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-185637-20"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-185637-20');
-</script>
-
-
 {% endif %}

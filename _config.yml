@@ -76,7 +76,6 @@ sass:
 
 # Use the following plug-ins
 plugins:
-  - jekyll-gist
   - jemoji
   - jekyll-gist
 

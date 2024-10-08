@@ -4,9 +4,12 @@ title: CV
 permalink: /cv/
 ---
 
-* My full CV is available via [LinkedIn](https://www.linkedin.com/in/andreatelatin).
-* My ORCID code is [0000-0001-7619-281X](https://orcid.org/0000-0001-7619-281X).
 
+> I'm the [Head of Bioinformatics](https://quadram.ac.uk/people/andrea-telatin/) at the Quadram Institute Bioscience
+
+
+* ORCID: [0000-0001-7619-281X](https://orcid.org/0000-0001-7619-281X)
+* [LinkedIn](https://www.linkedin.com/in/andreatelatin)
 
 ## Education
 
@@ -16,7 +19,9 @@ permalink: /cv/
 
 ## Research experience
 
- * 2017-now -- Senior Researcher at the Quadram Institute Bioscience (Norwich, UK)
+ * 2023-now -- Head of Bioinformatics  at the Quadram Institute Bioscience (Norwich, UK)
+   * Leading a team of 5 bioinformaticians to support the delivery of Institute's strategic programmes (ISPs) 
+ * 2017-2023 -- Senior Researcher at the Quadram Institute Bioscience (Norwich, UK)
    * Bioinformatic analysis of longitudinal metagenomics studies
    * Development of strategies for gut microbiome analysis
  * 2014-2017 -- Head of Bioinformatics, BMR Genomics (Padua, Italy)

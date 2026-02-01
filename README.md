@@ -1,1 +1,0 @@
-# telatin.github.io

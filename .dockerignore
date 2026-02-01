@@ -1,0 +1,8 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.git/
+.gitignore
+.DS_Store
+node_modules/
+vendor/

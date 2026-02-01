@@ -1,0 +1,841 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Tiscali Webspace</title>
+	<META name="WT.cg_n" content="Tiscali Community;Tiscali Servizi Principali" />
+<META name="WT.cg_s" content="Webspace" />
+<style type="text/css">
+	@import "/inc2008/styles.css";
+</style>
+</head>
+<body>
+<!-- BEGIN_HEADER -->
+<link rel="icon" type="image/png" href="http://webcenter.tiscali.it/favicon/new/favicon32x32.png" />
+<link rel="shortcut icon" href="http://webcenter.tiscali.it/favicon/new/favicon.ico" />
+<link rel="apple-touch-icon" href="http://webcenter.tiscali.it/favicon/new/apple-touch-icon.png" />
+<div class="ts_wrapper_header">
+	<!-- BEGIN_JS -->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
+	<script type="text/javascript" src="http://webcenter.tiscali.it/distribuzione/_script/t_988_06_2015.js"></script>
+	<script type="text/javascript">var LivelloBanner='webspace.home';</script>
+	<script type="text/javascript">var Channel='community';</script>
+    <script type="text/javascript">var Section='webspace';</script>
+    <script type="text/javascript">var SubSection='home';</script> 
+	<!-- Chartbeat header code --><script type="text/javascript" src="http://webcenter.tiscali.it/distribuzione/_script/chartbeat_header_code.js"></script><!-- end Chartbeat header code -->
+	<!-- END_JS -->   
+	<!-- BEGIN_CSS --><link rel="stylesheet" href="http://webcenter.tiscali.it/distribuzione/_css/988-0713.css" /><!-- END_CSS -->
+	<script type="text/javascript">
+        var Privacy = 0; // se l'utente ha dato il consenso alla cookie policy
+        if (GetCookie("cookieEu") === null) {
+            var Privacy = -1; // se l'utente NON ha ancora espresso il consenso 
+        }
+    </script>
+
+	<script type="text/javascript" src="http://tiscali.js.ad.dotandad.com/TiscaliAds.js" id="DotnAdsBase" language="javascript"></script>
+	<script type="text/javascript" id="TiscaliAds" language="javascript">
+        var dotnAd=new DotnAds();
+        dotnAd.setTBrand("tiscali");
+        dotnAd.setTChannel(Channel);
+        dotnAd.setTSection(Section);
+        dotnAd.setTSubSection(SubSection);
+        dotnAd.setFunGen("tiscali");
+        //passare qui eventuali keyword settando la variabile dotnKeyword
+        try{dotnAd.setKeywords(dotnKeyword);}catch(e){}
+        dotnAd.setDNT(Privacy);
+        dotnAd.callAdserver();
+    </script>
+	<!-- DOT&AD BASE TAG END //--><!-- END_MAKEAD -->
+    <!-- BEGIN_HEADBANNER -->
+    <div class="ts-headbanner_tviola">
+        <div id="dotnAd_970x120_strip"><script type="text/javascript">dotnAd.showAd2("970x120","strip");</script></div>
+    </div>
+    <!-- END_HEADBANNER -->
+    <div class="ts_wrapper_logo_search_tviola" style="padding-bottom:15px;">
+        <!-- BEGIN_LOGO -->
+        <div class="ts_logo" style="height:51px;">		                           
+            <a href="http://webspace.tiscali.it" target="_top" id="site"><h1>Tiscali Webspace</h1><img src="http://webcenter.tiscali.it/distribuzione/_loghi/new/t_webspace.png" alt="Tiscali Webspace"/></a>
+        </div>
+        <!-- END_LOGO -->      
+     </div>      
+</div>    
+<!-- END_HEADER -->
+
+
+<div id="main">
+<div id="sx">
+	<div>
+	<a href="http://webspace.tiscali.it/index.html" id="linkSxHome">Home</a>
+	<a href="http://webspace.tiscali.it/spazio.html" id="linkSxSpazio">Spazio web</a>
+	<!-- <a href="attivazione.html" id="linkSxAttivazione">Attiva</a> -->
+	<!--a href="http://webspace.tiscali.it/costruzione.html" id="linkSxCostruzione">Costruisci</a-->
+	<!--a href="http://assistenza.tiscali.it/mail/guide/spazio_disco/ftp.html" id="linkSxPubblicazione">Pubblica</a-->
+	<!-- <a href="strumenti.html" id="linkSxStrumenti">Strumenti</a>
+	<a href="http://vas.tiscali.it/websitebuilder/" target="_blank">Website Builder</a> -->
+	<a href="http://webspace.tiscali.it/faq.html" id="linkSxFaq" class="last">Faq</a>
+	<!-- <a href="http://selfcare.tiscali.it/unit/ecare/it_ecare" target="_blank">Assistenza</a>
+	<a href="http://www.areaserver.com/" target="_blank" class="last">Dominio</a> -->
+	</div>
+</div>
+<script type="text/javascript">
+function disableLink(){
+	return false;
+}
+
+if(location.href.indexOf('index')>-1 || location.href=='http://webspace.tiscali.it/') {
+	document.getElementById('linkSxHome').className='selected';
+	document.getElementById('linkSxHome').onclick=disableLink;
+}else if(location.href.indexOf('spazio.html')>-1) {
+	document.getElementById('linkSxSpazio').className='selected';
+	document.getElementById('linkSxSpazio').onclick=disableLink;
+}else if(location.href.indexOf('costruzione.html')>-1) {
+	document.getElementById('linkSxCostruzione').className='selected';
+	document.getElementById('linkSxCostruzione').onclick=disableLink;
+}else if(location.href.indexOf('pubblicazione.html')>-1) {
+	document.getElementById('linkSxPubblicazione').className='selected';
+	document.getElementById('linkSxPubblicazione').onclick=disableLink;
+}else if(location.href.indexOf('faq.html')>-1) {
+	document.getElementById('linkSxFaq').className='selected';
+	document.getElementById('linkSxFaq').onclick=disableLink;
+}
+</script>
+
+
+
+<div id="cx">
+	<div class="indice">
+<div id="legendaSiti">
+	<b>Attivit&agrave;</b>
+	<div class="attivita"><div class="blu" style="width:20px;">&#160;</div></div>
+	La barra dell'attivit&agrave; (in blu) &egrave; la rappresentazione
+	grafica di un indice che considera diversi aspetti oggettivi
+	del sito, quali l'articolazione delle pagine, lo spazio web
+	utilizzato, la navigabilit&agrave; e l'aggiornamento dei materiali.
+	<a href="" onclick="mostraLeggenda('none');return false;" class="chiudiSpiegazione">Chiudi</a>
+</div>
+
+
+		<div><span>Indice dei siti</span><br />Cerca il sito di tuo interesse!</div>
+		<div class="elenco" id="elencoSitiAlfabetico">
+		<a href="/directory/a/">A</a>|<a href="/directory/b/">B</a>|<a href="/directory/c/">C</a>|<a href="/directory/d/">D</a>|<a href="/directory/e/">E</a>|<a href="/directory/f/">F</a>|<a href="/directory/g/">G</a>|<a href="/directory/h/">H</a>|<a href="/directory/i/">I</a>|<a href="/directory/j/">J</a><a href="/directory/k/">K</a>|<a href="/directory/l/">L</a>|<a href="/directory/m/">M</a>|<a href="/directory/n/">N</a>|<a href="/directory/o/">O</a>|<a href="/directory/p/">P</a>|<a href="/directory/q/">Q</a>|<a href="/directory/r/">R</a>|<a href="/directory/s/">S</a><a href="/directory/t/">T</a>|<a href="/directory/u/">U</a>|<a href="/directory/v/">V</a>|<a href="/directory/w/">W</a>|<a href="/directory/x/">X</a>|<a href="/directory/y/">Y</a>|<a href="/directory/z/">Z</a>|<a href="/directory/0/">0</a>|<a href="/directory/_/">_</a>
+		</div>
+		<div class="ricerca">
+			<form method="get" action="http://search.tiscali.it/webspace/" id="formChannelWebspace" name="formChannelWebspace" >
+			<div class="sx">
+	Cerca su Webspace <br />
+    <input type="hidden" name="tiscalitype" value="web" />
+	<input type="text" name="key" value="" onkeydown="k=(document.all)?event.keyCode:event.which;if(k==13)document.formChannelWebspace.submit();" />
+
+
+<div class="Tbutton">
+		<div class="edge"><img src="/img2008/btn_left.gif" alt="left-edge"></div>
+		<div class="central"><a href='' onclick="document.getElementById('formChannelWebspace').submit();return false;">Cerca</a></div>
+		<div class="edge"><img src="/img2008/btn_right.gif" alt="right-edge"></div>
+	</div>
+	</div></form>
+			<form id="listings" name="listings" action="" method="get"><div class="dx">http://web.tiscali.it/<br /><select name="listings_sel" onchange="window.name='_home';window.open(listings_sel.options[listings_sel.selectedIndex].value,window.name);">
+<option value="/directory/tr1/">-MickyB ... 3492204</option>
+<option value="/directory/tr2/">34stree ... ALGHERO</option>
+<option value="/directory/tr3/">ALIASWE ... Alzatek</option>
+<option value="/directory/tr4/">Am_Lo ... BARE_IT</option>
+<option value="/directory/tr5/">BARICCI ... CENTE</option>
+<option value="/directory/tr6/">CENTRAL ... Claudio</option>
+<option value="/directory/tr7/">Claudio ... DeddeHo</option>
+<option value="/directory/tr8/">DedeHom ... Estonia</option>
+<option value="/directory/tr9/">Estrava ... FotoDiR</option>
+<option value="/directory/tr10/">FotoGal ... Gianfra</option>
+<option value="/directory/tr11/">Gianfry ... Hunter_</option>
+<option value="/directory/tr12/">Hyde ... JesoloL</option>
+<option value="/directory/tr13/">JesterW ... LikeSka</option>
+<option value="/directory/tr14/">Lilith ... Magicst</option>
+<option value="/directory/tr15/">MagikLi ... Microon</option>
+<option value="/directory/tr16/">Microso ... OPTOMA</option>
+<option value="/directory/tr17/">OP_TODA ... Phil</option>
+<option value="/directory/tr18/">PhilIta ... RealMon</option>
+<option value="/directory/tr19/">RealPan ... SYNAPSE</option>
+<option value="/directory/tr20/">SYSTEMs ... Spektru</option>
+<option value="/directory/tr21/">Spencer ... TheMind</option>
+<option value="/directory/tr22/">TheMind ... Virus</option>
+<option value="/directory/tr23/">Virus9 ... a_frigo</option>
+<option value="/directory/tr24/">a_gagli ... about.b</option>
+<option value="/directory/tr25/">about_b ... aclivrs</option>
+<option value="/directory/tr26/">aclongo ... adico</option>
+<option value="/directory/tr27/">adicom ... aesgram</option>
+<option value="/directory/tr28/">aesieur ... agenzia</option>
+<option value="/directory/tr29/">agenzia ... agritur</option>
+<option value="/directory/tr30/">agritur ... aisnu</option>
+<option value="/directory/tr31/">aispagh ... albero_</option>
+<option value="/directory/tr32/">alberoa ... aldo_se</option>
+<option value="/directory/tr33/">aldoalb ... alessan</option>
+<option value="/directory/tr34/">alessan ... alexfab</option>
+<option value="/directory/tr35/">alexfai ... alhabor</option>
+<option value="/directory/tr36/">alhaja ... almaner</option>
+<option value="/directory/tr37/">almanet ... alykand</option>
+<option value="/directory/tr38/">alykyui ... amicidi</option>
+<option value="/directory/tr39/">amicidi ... ancaran</option>
+<option value="/directory/tr40/">ancary ... andream</option>
+<option value="/directory/tr41/">andream ... angelar</option>
+<option value="/directory/tr42/">angelar ... anna.cr</option>
+<option value="/directory/tr43/">anna.ed ... anthogr</option>
+<option value="/directory/tr44/">anthony ... antonio</option>
+<option value="/directory/tr45/">antonio ... apetrel</option>
+<option value="/directory/tr46/">apetril ... aragorn</option>
+<option value="/directory/tr47/">aragost ... archurb</option>
+<option value="/directory/tr48/">archvid ... ariasic</option>
+<option value="/directory/tr49/">ariaste ... arsludi</option>
+<option value="/directory/tr50/">arsludi ... artic</option>
+<option value="/directory/tr51/">artica ... asdesso</option>
+<option value="/directory/tr52/">asdfgh ... assist_</option>
+<option value="/directory/tr53/">assista ... astueyd</option>
+<option value="/directory/tr54/">astukee ... atximi</option>
+<option value="/directory/tr55/">atydzju ... autojol</option>
+<option value="/directory/tr56/">autokin ... avoltec</option>
+<option value="/directory/tr57/">avoltes ... azzardo</option>
+<option value="/directory/tr58/">azzaru ... baitane</option>
+<option value="/directory/tr59/">baitast ... barbara</option>
+<option value="/directory/tr60/">barbara ... basketa</option>
+<option value="/directory/tr61/">basketa ... bdinfor</option>
+<option value="/directory/tr62/">bdivenu ... belmarv</option>
+<option value="/directory/tr63/">belmont ... bertold</option>
+<option value="/directory/tr64/">bertold ... biblio.</option>
+<option value="/directory/tr65/">biblio_ ... biofadj</option>
+<option value="/directory/tr66/">biofahn ... blady</option>
+<option value="/directory/tr67/">blairwi ... bmweb</option>
+<option value="/directory/tr68/">bmwing ... bonazzi</option>
+<option value="/directory/tr69/">bonbon2 ... bottega</option>
+<option value="/directory/tr70/">bottega ... brevett</option>
+<option value="/directory/tr71/">brevi ... brusko</option>
+<option value="/directory/tr72/">brusolo ... burgio</option>
+<option value="/directory/tr73/">burgioi ... caafzuc</option>
+<option value="/directory/tr74/">caalma ... calaset</option>
+<option value="/directory/tr75/">calasol ... campane</option>
+<option value="/directory/tr76/">campane ... cantina</option>
+<option value="/directory/tr77/">cantina ... carconf</option>
+<option value="/directory/tr78/">carcont ... carlyni</option>
+<option value="/directory/tr79/">carlz ... carteme</option>
+<option value="/directory/tr80/">carteop ... casamus</option>
+<option value="/directory/tr81/">casana ... castell</option>
+<option value="/directory/tr82/">castell ... cazzani</option>
+<option value="/directory/tr83/">cazzara ... ceccom</option>
+<option value="/directory/tr84/">ceccoon ... centrod</option>
+<option value="/directory/tr85/">centrod ... cerruti</option>
+<option value="/directory/tr86/">cersap ... charmy0</option>
+<option value="/directory/tr87/">charonp ... chihuah</option>
+<option value="/directory/tr88/">chiko1 ... cibiebe</option>
+<option value="/directory/tr89/">cibierr ... cinemap</option>
+<option value="/directory/tr90/">cinemar ... cisciul</option>
+<option value="/directory/tr91/">cisco_c ... classe1</option>
+<option value="/directory/tr92/">classe2 ... climaut</option>
+<option value="/directory/tr93/">climawo ... cnecrom</option>
+<option value="/directory/tr94/">cnexkjs ... college</option>
+<option value="/directory/tr95/">college ... commerc</option>
+<option value="/directory/tr96/">commerc ... comunem</option>
+<option value="/directory/tr97/">comunem ... consola</option>
+<option value="/directory/tr98/">consola ... coopera</option>
+<option value="/directory/tr99/">coopera ... corra71</option>
+<option value="/directory/tr100/">corra_s ... cosmosa</option>
+<option value="/directory/tr101/">cosmosa ... cralosp</option>
+<option value="/directory/tr102/">cralpa ... cristal</option>
+<option value="/directory/tr103/">cristal ... csecant</option>
+<option value="/directory/tr104/">cselpad ... cunanas</option>
+<option value="/directory/tr105/">cuncord ... d_apice</option>
+<option value="/directory/tr106/">d_bosso ... damyrac</option>
+<option value="/directory/tr107/">damysga ... danilog</option>
+<option value="/directory/tr108/">danilog ... darksid</option>
+<option value="/directory/tr109/">darksid ... davidsa</option>
+<option value="/directory/tr110/">davidsa ... debug</option>
+<option value="/directory/tr111/">debugge ... delpian</option>
+<option value="/directory/tr112/">delpicc ... derfelc</option>
+<option value="/directory/tr113/">derfgal ... dgy2k</option>
+<option value="/directory/tr114/">dgyeysa ... diesind</option>
+<option value="/directory/tr115/">diesind ... dinamic</option>
+<option value="/directory/tr116/">dinamir ... distrib</option>
+<option value="/directory/tr117/">distrib ... dllpxl7</option>
+<option value="/directory/tr118/">dlm2000 ... domenic</option>
+<option value="/directory/tr119/">domenic ... doriano</option>
+<option value="/directory/tr120/">doriato ... dreamla</option>
+<option value="/directory/tr121/">dreamla ... ducatis</option>
+<option value="/directory/tr122/">ducauto ... e.bob</option>
+<option value="/directory/tr123/">e.calde ... ecocasa</option>
+<option value="/directory/tr124/">ecocent ... edili</option>
+<option value="/directory/tr125/">edilia ... effevoo</option>
+<option value="/directory/tr126/">effevud ... electri</option>
+<option value="/directory/tr127/">electri ... elflaco</option>
+<option value="/directory/tr128/">elfo3p ... elta1</option>
+<option value="/directory/tr129/">eltanin ... emmegi.</option>
+<option value="/directory/tr130/">emmegi_ ... enogast</option>
+<option value="/directory/tr131/">enogest ... eolohom</option>
+<option value="/directory/tr132/">eolohom ... ermdir</option>
+<option value="/directory/tr133/">ermedec ... essegia</option>
+<option value="/directory/tr134/">essegia ... eugol</option>
+<option value="/directory/tr135/">eugpie ... eurosec</option>
+<option value="/directory/tr136/">eurosed ... exposi</option>
+<option value="/directory/tr137/">expost ... fabioca</option>
+<option value="/directory/tr138/">fabioca ... fabyos</option>
+<option value="/directory/tr139/">fabypod ... famigli</option>
+<option value="/directory/tr140/">famigli ... fanuele</option>
+<option value="/directory/tr141/">fanufa ... favit</option>
+<option value="/directory/tr142/">favola ... federco</option>
+<option value="/directory/tr143/">federco ... ferrael</option>
+<option value="/directory/tr144/">ferrafa ... fiammat</option>
+<option value="/directory/tr145/">fiammav ... filodra</option>
+<option value="/directory/tr146/">filodur ... fisconl</option>
+<option value="/directory/tr147/">fiscono ... floorba</option>
+<option value="/directory/tr148/">floorfi ... fondame</option>
+<option value="/directory/tr149/">fondant ... forza_r</option>
+<option value="/directory/tr150/">forza_v ... foxejoe</option>
+<option value="/directory/tr151/">foxes ... frances</option>
+<option value="/directory/tr152/">frances ... francy</option>
+<option value="/directory/tr153/">francy. ... freebee</option>
+<option value="/directory/tr154/">freebev ... fsaooik</option>
+<option value="/directory/tr155/">fsarcin ... fuscoan</option>
+<option value="/directory/tr156/">fuscofa ... gabriel</option>
+<option value="/directory/tr157/">gabriel ... gallery</option>
+<option value="/directory/tr158/">gallery ... garruto</option>
+<option value="/directory/tr159/">garruzz ... gcranch</option>
+<option value="/directory/tr160/">gcremas ... general</option>
+<option value="/directory/tr161/">general ... geraldf</option>
+<option value="/directory/tr162/">geraldf ... ggtgvr0</option>
+<option value="/directory/tr163/">gguerri ... gianbat</option>
+<option value="/directory/tr164/">gianbat ... giannig</option>
+<option value="/directory/tr165/">giannig ... gigifae</option>
+<option value="/directory/tr166/">gigifre ... giocond</option>
+<option value="/directory/tr167/">giocond ... giovacc</option>
+<option value="/directory/tr168/">giovact ... gittoan</option>
+<option value="/directory/tr169/">gitxomg ... giusepp</option>
+<option value="/directory/tr170/">giusepp ... globalm</option>
+<option value="/directory/tr171/">globalm ... godgod</option>
+<option value="/directory/tr172/">godiesa ... gpcblsk</option>
+<option value="/directory/tr173/">gpcblsl ... granito</option>
+<option value="/directory/tr174/">granlog ... grinzin</option>
+<option value="/directory/tr175/">grioni ... gscarf</option>
+<option value="/directory/tr176/">gscaste ... gugunet</option>
+<option value="/directory/tr177/">gugw4da ... gyusy</option>
+<option value="/directory/tr178/">gyvgadh ... haus_ar</option>
+<option value="/directory/tr179/">haus_ju ... hf1ii8w</option>
+<option value="/directory/tr180/">hfaiadn ... hogwart</option>
+<option value="/directory/tr181/">hogwart ... homepag</option>
+<option value="/directory/tr182/">homepag ... hotelil</option>
+<option value="/directory/tr183/">hotelim ... htxrxcq</option>
+<option value="/directory/tr184/">htyojks ... iannott</option>
+<option value="/directory/tr185/">iannrob ... idea200</option>
+<option value="/directory/tr186/">idea2k ... igiened</option>
+<option value="/directory/tr187/">igiened ... ila_ton</option>
+<option value="/directory/tr188/">ilabora ... ilgiobb</option>
+<option value="/directory/tr189/">ilgioca ... ilprinc</option>
+<option value="/directory/tr190/">ilprinc ... imieifr</option>
+<option value="/directory/tr191/">imieili ... inart-w</option>
+<option value="/directory/tr192/">inartim ... infomat</option>
+<option value="/directory/tr193/">infomat ... ingpepp</option>
+<option value="/directory/tr194/">ingpg ... interne</option>
+<option value="/directory/tr195/">interne ... ipg_eng</option>
+<option value="/directory/tr196/">ipgita ... isckawe</option>
+<option value="/directory/tr197/">iscmita ... istleon</option>
+<option value="/directory/tr198/">istmagc ... itccerb</option>
+<option value="/directory/tr199/">itcceri ... iw0uvd</option>
+<option value="/directory/tr200/">iw1biu ... japop90</option>
+<option value="/directory/tr201/">jappoma ... jimbopr</option>
+<option value="/directory/tr202/">jimdmor ... joshua2</option>
+<option value="/directory/tr203/">joshua_ ... jxxlgx</option>
+<option value="/directory/tr204/">jxy1y79 ... katalic</option>
+<option value="/directory/tr205/">katalin ... kiieolt</option>
+<option value="/directory/tr206/">kijkdoo ... kmhitc</option>
+<option value="/directory/tr207/">kmimxd8 ... kujeart</option>
+<option value="/directory/tr208/">kujfgqv ... labimma</option>
+<option value="/directory/tr209/">labin ... ladyevi</option>
+<option value="/directory/tr210/">ladyfra ... lamiafe</option>
+<option value="/directory/tr211/">lamiafr ... laqjjhz</option>
+<option value="/directory/tr212/">laqjjhz ... lattedo</option>
+<option value="/directory/tr213/">lattemi ... lbmwebm</option>
+<option value="/directory/tr214/">lbmyzko ... leganor</option>
+<option value="/directory/tr215/">leganor ... leonard</option>
+<option value="/directory/tr216/">leonard ... lfgalle</option>
+<option value="/directory/tr217/">lfghqdf ... lidialu</option>
+<option value="/directory/tr218/">lidiama ... linnsrl</option>
+<option value="/directory/tr219/">lino ... lkarren</option>
+<option value="/directory/tr220/">lkbfoic ... lomarel</option>
+<option value="/directory/tr221/">lomark ... loriveg</option>
+<option value="/directory/tr222/">lorix ... lthgceo</option>
+<option value="/directory/tr223/">lthpi5t ... lucaper</option>
+<option value="/directory/tr224/">lucaper ... lucycre</option>
+<option value="/directory/tr225/">lucyfot ... lumimam</option>
+<option value="/directory/tr226/">lumin ... m4mhptr</option>
+<option value="/directory/tr227/">m4pxthl ... madmasf</option>
+<option value="/directory/tr228/">madmass ... magodel</option>
+<option value="/directory/tr229/">magodel ... mamerom</option>
+<option value="/directory/tr230/">mamerti ... manubar</option>
+<option value="/directory/tr231/">manubla ... marche.</option>
+<option value="/directory/tr232/">marchea ... marcol_</option>
+<option value="/directory/tr233/">marcola ... margher</option>
+<option value="/directory/tr234/">margher ... marinuc</option>
+<option value="/directory/tr235/">marinuc ... marmott</option>
+<option value="/directory/tr236/">marmott ... masdad</option>
+<option value="/directory/tr237/">masdago ... masterd</option>
+<option value="/directory/tr238/">mastere ... matteof</option>
+<option value="/directory/tr239/">matteof ... maurizi</option>
+<option value="/directory/tr240/">maurizi ... maxelet</option>
+<option value="/directory/tr241/">maxelja ... mbcinte</option>
+<option value="/directory/tr242/">mbckjki ... mdproje</option>
+<option value="/directory/tr243/">mdproje ... medinli</option>
+<option value="/directory/tr244/">medintc ... menesat</option>
+<option value="/directory/tr245/">menesca ... meteocr</option>
+<option value="/directory/tr246/">meteoen ... mianoi</option>
+<option value="/directory/tr247/">mianone ... microan</option>
+<option value="/directory/tr248/">microar ... milanor</option>
+<option value="/directory/tr249/">milanor ... minotau</option>
+<option value="/directory/tr250/">minoted ... mistere</option>
+<option value="/directory/tr251/">mistere ... mmu.hom</option>
+<option value="/directory/tr252/">mmuffic ... momo</option>
+<option value="/directory/tr253/">momo27 ... monteca</option>
+<option value="/directory/tr254/">monteca ... morsani</option>
+<option value="/directory/tr255/">morsasc ... mozzare</option>
+<option value="/directory/tr256/">mozzare ... mt5ecnw</option>
+<option value="/directory/tr257/">mt_brea ... musc_mi</option>
+<option value="/directory/tr258/">muscand ... my_home</option>
+<option value="/directory/tr259/">my_home ... nails</option>
+<option value="/directory/tr260/">nailseb ... nautica</option>
+<option value="/directory/tr261/">nautica ... nemesys</option>
+<option value="/directory/tr262/">nemeton ... nevi</option>
+<option value="/directory/tr263/">nevicat ... nicchio</option>
+<option value="/directory/tr264/">nicco ... nikeman</option>
+<option value="/directory/tr265/">nikeman ... nobian</option>
+<option value="/directory/tr266/">nobibli ... norrof9</option>
+<option value="/directory/tr267/">nortap7 ... nucki</option>
+<option value="/directory/tr268/">nucleai ... nwyqcss</option>
+<option value="/directory/tr269/">nx45d6 ... oengaer</option>
+<option value="/directory/tr270/">oengerf ... oldpain</option>
+<option value="/directory/tr271/">oldpete ... omicron</option>
+<option value="/directory/tr272/">omicron ... openuff</option>
+<option value="/directory/tr273/">openweb ... origine</option>
+<option value="/directory/tr274/">origini ... ossep</option>
+<option value="/directory/tr275/">osser ... owesyaf</option>
+<option value="/directory/tr276/">owethvn ... pagina_</option>
+<option value="/directory/tr277/">pagina_ ... pancald</option>
+<option value="/directory/tr278/">pancald ... paolo_s</option>
+<option value="/directory/tr279/">paolo_s ... papicop</option>
+<option value="/directory/tr280/">papigna ... parteno</option>
+<option value="/directory/tr281/">parteno ... patrizi</option>
+<option value="/directory/tr282/">patrizi ... pdati2</option>
+<option value="/directory/tr283/">pdavino ... pentasu</option>
+<option value="/directory/tr284/">pentasy ... persona</option>
+<option value="/directory/tr285/">persona ... pgvsomv</option>
+<option value="/directory/tr286/">pgwpctd ... piccion</option>
+<option value="/directory/tr287/">piccios ... pietrad</option>
+<option value="/directory/tr288/">pietrad ... pinoli-</option>
+<option value="/directory/tr289/">pinolic ... pitigli</option>
+<option value="/directory/tr290/">pitigli ... platax1</option>
+<option value="/directory/tr291/">plate ... pointde</option>
+<option value="/directory/tr292/">pointer ... ponzo</option>
+<option value="/directory/tr293/">ponzolo ... ppaglio</option>
+<option value="/directory/tr294/">ppamm ... priceau</option>
+<option value="/directory/tr295/">priceca ... proform</option>
+<option value="/directory/tr296/">proform ... proloco</option>
+<option value="/directory/tr297/">proloco ... prowar</option>
+<option value="/directory/tr298/">proweb ... puerica</option>
+<option value="/directory/tr299/">puertos ... px8id8n</option>
+<option value="/directory/tr300/">pxbxgj4 ... qtarant</option>
+<option value="/directory/tr301/">qtaro99 ... quodmr-</option>
+<option value="/directory/tr302/">quoels1 ... rafaele</option>
+<option value="/directory/tr303/">rafaeln ... rapbrus</option>
+<option value="/directory/tr304/">rapdzhp ... realbik</option>
+<option value="/directory/tr305/">realbob ... reikiun</option>
+<option value="/directory/tr306/">reikiwe ... restaur</option>
+<option value="/directory/tr307/">restaur ... riccard</option>
+<option value="/directory/tr308/">riccard ... rimatec</option>
+<option value="/directory/tr309/">rimbalz ... ritapes</option>
+<option value="/directory/tr310/">ritapie ... roberta</option>
+<option value="/directory/tr311/">roberta ... roby.mi</option>
+<option value="/directory/tr312/">roby050 ... roma82</option>
+<option value="/directory/tr313/">roma89 ... rosario</option>
+<option value="/directory/tr314/">rosario ... royce</option>
+<option value="/directory/tr315/">roydevi ... rugh_ch</option>
+<option value="/directory/tr316/">rughe ... saaty</option>
+<option value="/directory/tr317/">sab ... salafwe</option>
+<option value="/directory/tr318/">salagat ... salvoma</option>
+<option value="/directory/tr319/">salvoma ... sangior</option>
+<option value="/directory/tr320/">sangior ... sanvil</option>
+<option value="/directory/tr321/">sanvito ... sariels</option>
+<option value="/directory/tr322/">sarifas ... sbard</option>
+<option value="/directory/tr323/">sbardel ... schifa</option>
+<option value="/directory/tr324/">schifan ... scrambl</option>
+<option value="/directory/tr325/">scrappo ... sdgafda</option>
+<option value="/directory/tr326/">sdgafda ... selargi</option>
+<option value="/directory/tr327/">selargi ... sergioa</option>
+<option value="/directory/tr328/">sergiob ... sestril</option>
+<option value="/directory/tr329/">sestril ... shadowb</option>
+<option value="/directory/tr330/">shadowe ... sicilan</option>
+<option value="/directory/tr331/">sicilar ... silvani</option>
+<option value="/directory/tr332/">silvani ... simoneb</option>
+<option value="/directory/tr333/">simoneb ... sirio_h</option>
+<option value="/directory/tr334/">sirioag ... sitomax</option>
+<option value="/directory/tr335/">sitomax ... slnautq</option>
+<option value="/directory/tr336/">slnkglt ... snapnet</option>
+<option value="/directory/tr337/">snappy ... solarer</option>
+<option value="/directory/tr338/">solares ... sophia6</option>
+<option value="/directory/tr339/">sophiea ... spancra</option>
+<option value="/directory/tr340/">spand ... spi</option>
+<option value="/directory/tr341/">spi2002 ... spyderw</option>
+<option value="/directory/tr342/">spydeyw ... starfax</option>
+<option value="/directory/tr343/">starfie ... stefano</option>
+<option value="/directory/tr344/">stefano ... stesca</option>
+<option value="/directory/tr345/">stescab ... strella</option>
+<option value="/directory/tr346/">strelly ... studiob</option>
+<option value="/directory/tr347/">studiob ... studiol</option>
+<option value="/directory/tr348/">studiol ... studios</option>
+<option value="/directory/tr349/">studios ... summo</option>
+<option value="/directory/tr350/">summodi ... support</option>
+<option value="/directory/tr351/">support ... sysiste</option>
+<option value="/directory/tr352/">syslab ... tanitar</option>
+<option value="/directory/tr353/">taniusk ... tccar</option>
+<option value="/directory/tr354/">tccharv ... tecnico</option>
+<option value="/directory/tr355/">tecnico ... tekstan</option>
+<option value="/directory/tr356/">tekstan ... ter2000</option>
+<option value="/directory/tr357/">terabyt ... testplu</option>
+<option value="/directory/tr358/">testpoi ... thefiel</option>
+<option value="/directory/tr359/">thefiel ... thunder</option>
+<option value="/directory/tr360/">thunder ... titanic</option>
+<option value="/directory/tr361/">titaniu ... tomasin</option>
+<option value="/directory/tr362/">tomasmi ... tore81</option>
+<option value="/directory/tr363/">tore84 ... tpnhntu</option>
+<option value="/directory/tr364/">tponlin ... treddd</option>
+<option value="/directory/tr365/">tredddi ... troiano</option>
+<option value="/directory/tr366/">troiano ... turist</option>
+<option value="/directory/tr367/">turista ... txmsocb</option>
+<option value="/directory/tr368/">txocmcq ... ugoland</option>
+<option value="/directory/tr369/">ugolcd ... uncerta</option>
+<option value="/directory/tr370/">unchain ... up0lp4r</option>
+<option value="/directory/tr371/">up2000 ... utgoriz</option>
+<option value="/directory/tr372/">utherpe ... vale_we</option>
+<option value="/directory/tr373/">valeale ... vandele</option>
+<option value="/directory/tr374/">vandenb ... vegoia</option>
+<option value="/directory/tr375/">vegoiam ... veronic</option>
+<option value="/directory/tr376/">veronic ... viavesp</option>
+<option value="/directory/tr377/">viay3rs ... villabe</option>
+<option value="/directory/tr378/">villabe ... vincero</option>
+<option value="/directory/tr379/">vincesa ... visualb</option>
+<option value="/directory/tr380/">visualb ... vkizeq</option>
+<option value="/directory/tr381/">vkkekda ... vperill</option>
+<option value="/directory/tr382/">vpetron ... walter_</option>
+<option value="/directory/tr383/">walter_ ... webbars</option>
+<option value="/directory/tr384/">webbart ... webs</option>
+<option value="/directory/tr385/">webs200 ... whynet</option>
+<option value="/directory/tr386/">whynoth ... wonderz</option>
+<option value="/directory/tr387/">wongfei ... www.max</option>
+<option value="/directory/tr388/">www.me. ... xibio</option>
+<option value="/directory/tr389/">xicix ... xyzxyz</option>
+<option value="/directory/tr390/">xyzzyx ... yr2bf0z</option>
+<option value="/directory/tr391/">yr3ml0s ... zardo2</option>
+<option value="/directory/tr392/">zardoni ... ziodibr</option>
+<option value="/directory/tr393/">zioelio ... zuggifu</option>
+<option value="/directory/tr394/">zugzwan ... zzzz100</option>
+
+</select>
+
+<div class="Tbutton">
+		<div class="edge"><img src="/img2008/btn_left.gif" alt="left-edge"></div>
+		<div class="central"><a  href="javascript:window.name='_home';window.open(document.listings.listings_sel.options[document.listings.listings_sel.selectedIndex].value,window.name);">Cerca</a></div>
+		<div class="edge"><img src="/img2008/btn_right.gif" alt="right-edge"></div>
+	</div>
+</div></form>
+		</div>
+	</div>
+<script type="text/javascript">
+function mostraLeggenda(dis){
+	document.getElementById('legendaSiti').style.display=dis;
+	var vis=(dis=='block')?'hidden':'visible';
+	document.getElementById('listings').listings_sel.style.visibility=vis;
+	if(dis=='block'){
+		window.scroll(0,0);
+	}
+}
+
+function selezionaNavigazioneSiti(){
+	var where=location.href;
+	//where='http://webspace.tiscali.it/directory/tr155/';
+	//where='http://webspace.tiscali.it/directory/b/';
+	var sel=document.getElementById('listings').listings_sel;
+	var options=sel.getElementsByTagName('option');
+	for(var i=0;i<options.length;i++){
+		if(where.indexOf(options[i].value)>-1){
+			options[i].selected=true;
+			break;
+		}
+	}
+
+	var links=document.getElementById('elencoSitiAlfabetico').getElementsByTagName('a');
+	for(var j=0;j<links.length;j++){
+		if(where.indexOf(links[j].href)>-1){
+			links[j].className='selectedElencoSiti';
+			links[j].onclick=disableLink;
+			break;
+		}
+	}
+}
+selezionaNavigazioneSiti();
+</script>
+
+
+	<div class="titolo">
+	<img src="/img2008/centralSx.gif" class="left" alt="" />
+	<img src="/img2008/centralDx.gif" class="right" alt="" />
+		Crea il tuo sito in pochi minuti!!
+
+	</div>
+
+
+	<div class="creaSito">
+		<div class="blocco">
+			<div class="uno">Attiva il tuo spazio web</div>
+			<div class="due">Attiva il tuo spazio web dalla sezione "<b>Fai da te</b>" del sito <b>Tiscali 130</b></div>
+			<div class="tre"><a href="https://selfcare.tiscali.it/unit/ecare/it_ftp_activate?visp=tiscali" target="_blank">Attiva</a></div>
+		</div>
+		<div class="blocco">
+			<div class="uno">Aumenta il tuo spazio web</div>
+			<div class="due">
+			Puoi aumentare lo Spazio Disco di 1000 MB con soli 1,50 &euro; al mese.</div>
+			<div class="tre"><a href="http://vas.tiscali.it/spaziodisco/" target="_blank">Aumenta</a></div>
+		</div>
+		<div class="blocco">
+			<div class="uno">Pubblica il tuo sito</div>
+			<div class="due">Con l'aiuto della nostra guida pubblica il tuo sito e rendilo visibile a tutti con estrema facilit&agrave;.</div>
+			<div class="tre"><a href="http://assistenza.tiscali.it/tecnica/servizi/spazioweb/index.php" target="_blank">Pubblica</a></div>
+		</div>
+
+	</div>
+
+
+	<!--div class="titolo">
+	<img src="/img2008/centralSx.gif" class="left" alt="" />
+	<img src="/img2008/centralDx.gif" class="right" alt="" />
+		WebSite Builder
+	</div-->
+
+
+	<!--div class="webSite">
+		<div class="top"><a href="http://vas.tiscali.it/websitebuilder/"><b>Website Builder</b></a> &egrave; un semplice strumento che ti permetter&agrave; di creare il tuo sito web con i contenuti che pi&ugrave; desideri.</div>
+		<div class="middle">
+		<div class="testo">
+			<div class="blocco">
+				<div class="uno">Scegli il tuo stile</div>
+				<div class="due">Oltre 200 modelli proposti</div>
+			</div>
+			<div class="blocco">
+				<div class="uno">Personalizza il tuo sito</div>
+				<div class="due">Con logo personale, grafica, testo, foto album, blog, animazioni in flash...</div>
+			</div>
+			<div class="blocco">
+				<div class="uno">Pubblica</div>
+				<div class="due">Un solo click e il tuo sito e sul web!</div>
+			</div>
+			<div class="centrato"><a href="http://wsc-cm4all.tiscali.it/create_demo_account.jsp?clientId=RRTISC999JZT4SLJ&productId=WSCSYSSSSLY0XONR&language=it&country=IT&wl_name=tiscali_consumer&demoCallbackUrl=http://websitebuilder.tiscali.it/scheda.php"><img src="./img2008/provalo.gif" alt="" /></a></div>
+		</div>
+		<img src="./img2008/tipi.jpg" class="right" alt="" />
+		</div>
+		<div class="bottom">Se sei un utente Tiscali ADSL, Tiscali Supermail o Tiscali Plus, la versione BASIC di <a href="http://vas.tiscali.it/websitebuilder/scheda.php">Website Builder</a> &egrave; GRATIS!</div>
+	</div-->
+
+</div>
+
+<div id="dx">
+	<div class="box1">
+		<div class="titolo">
+		Cos'&egrave; lo spazio web
+		</div>Lo spazio web &egrave; gratuito in tutti gli abbonamenti a Internet Tiscali e ti consente di avere un sito web personale o commerciale<br />
+<b>Per gli abbonamenti analogici e ISDN</b> lo spazio web &egrave; di 20 MB.<br /><b>Per gli abbonamenti ADSL</b>  lo spazio web &egrave; di 100 MB.<br />
+
+	</div>
+	<!--div id="banner300x250c20">
+	&#160;
+	</div-->
+
+
+
+
+
+
+
+	<div class="titolo">
+		Assistenza
+	</div>
+	<div class="box">
+		Sulla pagina del supporto online riceverai assistenza su spazi web gratuiti e domini e tutte le info commerciali e amministrative.<div style="margin-top:5px;"><a href="http://assistenza.tiscali.it/" target="_blank">Supporto Online</a></div>
+	</div>
+	<!--div class="titolo">
+		Faq spazio web
+	</div-->
+	<!--div class="box">
+		Lista delle domande pi&ugrave; frequenti e delle relative risposte sullo spazio web<br />
+		<div style="margin-top:5px;"><a href="http://webspace.tiscali.it/faq.html">Consulta le FAQ</a></div>
+	</div-->
+	<div class="titolo">
+		Tiscali domain
+	</div>
+
+	<div class="box backGrigio">
+		<div class="sottoTitolo">Molto pi&ugrave; di un semplice dominio!</div>
+		<div>Tutte le informazioni sui costi, su come registrare un dominio, come gestirlo, pubblicare le pagine web e attivare gli alias</div>
+		<div style="margin:5px 0 0 0;padding-right:5px; float:left;border-right:1px solid #000;"><a href="http://business.tiscali.it/hosting_domini/" target="_blank">Registra</a></div>
+		<div style="margin:5px 5px 0 5px; float:left;"><a href="http://business.tiscali.it/assistenza/articoli/gestione_hosting_domini.php" target="_blank">Assistenza</a></div>
+	</div>
+
+</div>
+
+</div>
+
+<div class="clear">&#160;</div>
+
+<!-- BEGIN_FOOTER -->
+<!-- #ver. 0# -->
+
+    <div id="dotnAd_988x90_custom"><script type="text/javascript">dotnAd.showAd2("988x90","custom");</script></div>
+
+
+<div class="tw10-footer">
+	<style>
+	.contDataSoc{position:fixed;bottom:20px; right:132px;width:428px; height:250px; filter:alpha(opacity:100);opacity:1;z-index:200;background:#FFF;overflow:hidden; border:1px solid #DCDCDC; padding:10px; line-height:25px; display:none;}
+	.titDataSoc{font-size:16px; font-weight:bold; color:#0098A7; margin-bottom:10px;}
+	.contDataSoc div{width:428px;}
+	.reaTxt{color:#333;}
+	</style>
+	<div class="contDataSoc" id="contDataSoc">
+		<div><a href="" onclick="document.getElementById('contDataSoc').style.display = 'none'; return false;"><img src="http://webcenter.tiscali.it/bottoni/chiudi.gif" class="fR" alt="Chiudi" /></a></div>
+		<div class="titDataSoc">Dati Sociali</div>
+        <div>
+            <b>Tiscali Italia S.p.A. con socio unico</b><br />
+            <b>Sede Sociale:</b> Cagliari, Localit&agrave; Sa Illetta, S.S. 195, Km 2.300, 09123<br />
+            <b>Capitale Sociale:</b> 18.794.000,00 i.v.<br />
+            <b>Iscrizione al registro delle imprese:</b> n. 02508100928 Cagliari<br />
+            <b>Codice Fiscale - P. IVA:</b> n. 02508100928<br />
+            <b>R.E.A.:</b> <span class="reaTxt">n. 204250 Cagliari</span><br />
+            <b>Direzione e Coordinamento:</b> Tiscali S.p.A.
+        </div>
+	</div>
+	<div class="tw10-footerLink">
+        
+        <a href="#" onClick="window.open('http://www.tiscali.it/privacy/informativa_policy_privacy.html'); return false">Privacy Policy</a> | <a href="#" onClick="window.open('http://www.tiscali.it/privacy/informativa_policy_cookies.html'); return false">Informativa sui cookie</a>
+    </div>
+</div>
+
+	
+    
+    	<div class="tw10-footercopy">
+        	&copy; Tiscali Italia S.p.A. 2017&nbsp; P.IVA 02508100928 | <a href="" onClick="document.getElementById('contDataSoc').style.display = 'block'; return false;">Dati Sociali</a>
+        </div>
+    
+
+<!-- start footer chartbeat code -->
+<script type="text/javascript">var NomeCanale='Community';</script>
+<script type='text/javascript'>
+	var _sf_async_config={};
+	/** CONFIGURATION START **/
+	_sf_async_config.uid = 52561;
+	_sf_async_config.domain = 'tiscali.it';
+	_sf_async_config.useCanonical = true;
+	_sf_async_config.sections = NomeCanale;
+	/** CONFIGURATION END **/
+	(function(){
+	  function loadChartbeat() {
+		window._sf_endpt=(new Date()).getTime();
+		var e = document.createElement('script');
+		e.setAttribute('language', 'javascript');
+		e.setAttribute('type', 'text/javascript');
+		e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+		document.body.appendChild(e);
+	  }
+	  var oldonload = window.onload;
+	  window.onload = (typeof window.onload != 'function') ?
+		 loadChartbeat : function() { oldonload(); loadChartbeat(); };
+	})();
+</script>
+<!-- end footer chartbeat code -->
+
+    <!-- BEGIN_GA -->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-1504188-1");
+            pageTracker._setCookieTimeout("2592000") 
+            pageTracker._setDomainName(".tiscali.it")
+            pageTracker._trackPageview();
+        } 
+        catch(err) {
+        }
+    </script>
+    <!-- END_GA -->
+
+<!-- variabili per webtrekk -->
+
+
+<script type="text/javascript">var Cat='TISCALI COMMUNITY';</script>
+<script type="text/javascript">var Canale='TISCALI COMMUNITY - WEBSPACE';</script>
+<!-- fine variabili per webtrekk -->
+<!-- Webtrekk 3.1.5, (c) www.webtrekk.com -->
+<script type="text/javascript" src="http://webcenter.tiscali.it/distribuzione/_script/webtrekk_v3.js"></script>
+<script type="text/javascript">
+<!--
+function getContentIdByURL(){
+   var url = document.location.href;
+   if(url && url !== null) {
+      return url.split("?")[0].toLowerCase();
+   }
+   return "no_content";
+};
+var pageConfig = {
+	linkTrack : "", 	// Attivare la rilevazione dei LINK ["link" o "standard"]
+	heatmap : "", 		// Attivare la rilevazione della HEATMAP ["1" = on | "0" = off]
+	form : "",		// Attivare la rilevazione dei FORM ["1" = on | "0" = off]
+	contentId : getContentIdByURL() 
+};
+var wt = new webtrekkV3(pageConfig);
+wt.contentGroup = {
+1 : "TISCALI.IT", //sito, valore fisso
+2 : Cat, //categoria, valore settato sulla proprieta Categoria sito della cartella della distribuzione del canale
+3 : Canale //canale, valore settato sulla proprieta TiscaliTrackingCodeList del footer della distribuzione o della cartella che lo contiene
+};
+wt.sendinfo();
+//-->
+</script>
+<noscript><div><img src="http://tiscaliadv01.webtrekk.net/245406294797569/wt.pl?p=315,0" height="1" width="1" alt="" /></div></noscript>
+<!-- /Webtrekk -->
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "18389568" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=18389568&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+		
+	<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2012 Nielsen Online -->
+<script type="text/javascript" src="//secure-it.imrworldwide.com/v60.js">
+</script>
+<script type="text/javascript">
+	var pvar = { cid: "veesible-it", content: "0", server: "secure-it" };
+	var feat = { check_cookie: 0 };
+	var trac = nol_t(pvar, feat);
+	trac.record().post();
+</script>
+<noscript>
+    <div><img src="//secure-it.imrworldwide.com/cgi-bin/m?ci=veesible-it&amp;cg=0&amp;cc=0&amp;ts=noscript" width="1" height="1" alt="" /></div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+
+<!-- END_FOOTER -->
+
+
+
+
+</body>
+</html>

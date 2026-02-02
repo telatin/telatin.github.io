@@ -66,9 +66,9 @@ color_settings:
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
-  accent_color: '#3498db'
+  accent_color: '#221d5d'
   border_color: '#dddddd'
-  hero_background_color: '#132930'
+  hero_background_color: '#301313'
   hero_text_color: '#ffffff'
   error_color: '#D64541'
 
@@ -156,3 +156,4 @@ advanced_settings:
   custom_styles: ""
   header_js: ""
   footer_js: ""
+

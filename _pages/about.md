@@ -2,7 +2,7 @@
 title: About me
 subtitle: Head of Bioinformatics at the Quadram Institute
 description: Andrea Telatin - bioinformatician in Norwich, UK
-featured_image: /images/demo/about.jpg
+featured_image: /images/telatin-bg.png
 ---
 
 I'm a researcher at the [Quadram Institute](https://quadram.ac.uk) (Norwich, UK), exploring gut metagenomics datasets with bioinformatics methods.

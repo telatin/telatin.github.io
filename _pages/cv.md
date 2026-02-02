@@ -2,7 +2,7 @@
 title: CV
 subtitle: Andrea Telatin
 description: Curriculum Vitae of Andrea Telatin
-featured_image:
+featured_image: /images/telatin-bg.png
 ---
 
 > I'm the [Head of Bioinformatics](https://quadram.ac.uk/people/andrea-telatin/) at the Quadram Institute Bioscience

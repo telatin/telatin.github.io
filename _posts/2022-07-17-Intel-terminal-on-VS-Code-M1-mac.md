@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Configuring an Intel (rosetta) terminal inside your M1 optimized VS Code
+featured_image: /images/rosetta.jpg
 ---
 
 With M1 chips, Apple started shipping ARM processor for their hi-end machines, including the fantastic MacBook Pro, which

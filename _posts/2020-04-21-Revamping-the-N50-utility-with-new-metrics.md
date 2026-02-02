@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Revamping the N50 utility with new metrics
+featured_image: /images/n50.png
 ---
 
 My first Perl Module has been an [N50 calculator](https://metacpan.org/pod/Proch::N50), that 

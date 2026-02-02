@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bioinformatics papers as they should work
+featured_image: /images/bioinfo.png
 ---
 
 [covtobed](https://github.com/telatin/covtobed) has just been 

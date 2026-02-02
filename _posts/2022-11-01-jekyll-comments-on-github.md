@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Adding a comments section in Github pages
+featured_image: /images/comments.png
 ---
 
 Some Jekyll templates have an easy integration with Disqus to allow

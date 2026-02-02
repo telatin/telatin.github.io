@@ -19,7 +19,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<!-- Page Info -->
-	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image | relative_url }}">
+	<link rel="icon" type="image/png" href="/images/favico/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/images/favico/favicon.svg" />
+	<link rel="shortcut icon" href="/images/favico/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favico/apple-touch-icon.png" />
+	<link rel="manifest" href="/images/favico/site.webmanifest" />
 	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
 	<meta name="description" content="{{ page.description | strip_html | xml_escape }}">
 

@@ -2,7 +2,7 @@
 title: SeqFu
 subtitle: A general-purpose program to manipulate and parse FASTX (FASTA and FASTQ) files
 description: A compiled toolkit providing fast utilities for common operations on FASTA/FASTQ files, including counting, dereplicating, interleaving, and more.
-featured_image: /images/demo/demo-landscape.jpg
+featured_image: /images/seqfu-bg.jpg
 ---
 
 ## Overview

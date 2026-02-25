@@ -1,7 +1,7 @@
 site: Andrea Telatin
 
-url: https://telatin.github.io
-baseurl: ""
+url: https://telatin.github.io/
+baseurl: "/"
 
 collections:
   pages:

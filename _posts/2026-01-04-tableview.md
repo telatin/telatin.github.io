@@ -5,7 +5,7 @@ featured_image: /images/nim.png
 ---
 
 
-![Screenshot]({{ site.baseurl }}/{% link images/screenshots/tabview.png %})
+![Screenshot]({% link images/screenshots/tabview.png %})
 
 A Nim library to render tables interactively, `tableview`, allows tools to offer
 a smooth experience while browsing data.

@@ -1,0 +1,176 @@
+// - - - - - - - - - - - - - - - - - -
+
+// CV page
+
+// - - - - - - - - - - - - - - - - - -
+
+.cv-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 20px;
+
+	.button {
+		font-weight: $bold-weight;
+	}
+}
+
+// Highlights
+
+.cv-highlights {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 16px;
+	margin-top: 20px;
+
+	@include mq(tabletp) {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+}
+
+.cv-highlight {
+	position: relative;
+	padding: 20px 20px 18px;
+	background: $background-alt-color;
+	border-top: 3px solid $accent-color;
+
+	@include mq(laptop) {
+		padding: 26px 24px 22px;
+	}
+}
+
+.cv-highlight__figure {
+	display: block;
+	font-family: $title-font;
+	font-size: 30px;
+	font-weight: $h3-weight;
+	color: $accent-color;
+	line-height: 1;
+
+	@include mq(laptop) {
+		font-size: 36px;
+	}
+}
+
+.cv-highlight__title {
+	display: block;
+	margin-top: 8px;
+	font-weight: $bold-weight;
+	color: $text-dark-color;
+}
+
+.cv-highlight__text {
+	margin-top: 6px;
+	font-size: $p-small*0.95;
+	color: $text-medium-color;
+
+	@include mq(laptop) {
+		font-size: $p-medium*0.9;
+	}
+}
+
+// Timeline
+
+.cv-timeline {
+	position: relative;
+	margin-top: 10px;
+	padding-left: 20px;
+	border-left: 2px solid $background-alt-color;
+
+	@include mq(tabletp) {
+		padding-left: 30px;
+	}
+}
+
+.cv-timeline__item {
+	position: relative;
+	padding-bottom: 30px;
+
+	&:last-child {
+		padding-bottom: 0;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 4px;
+		left: -25px;
+		width: 12px;
+		height: 12px;
+		border-radius: 100%;
+		background: $accent-color;
+
+		@include mq(tabletp) {
+			left: -36px;
+		}
+	}
+}
+
+.cv-timeline__meta {
+	display: block;
+	font-size: 13px;
+	font-weight: $bold-weight;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: $accent-color;
+}
+
+.cv-timeline__role {
+	margin-top: 2px;
+	font-family: $title-font;
+	font-size: $h4-small;
+	font-weight: $h4-weight;
+	color: $text-dark-color;
+
+	@include mq(tabletp) {
+		font-size: $h4-medium;
+	}
+}
+
+.cv-timeline__org {
+	margin-top: 2px;
+	font-size: $p-small*0.95;
+	color: $text-medium-color;
+}
+
+.cv-timeline__item ul {
+	margin-top: 8px;
+}
+
+// Education
+
+.cv-education {
+	margin-top: 10px;
+}
+
+.cv-education__item {
+	display: flex;
+	align-items: baseline;
+	gap: 14px;
+	padding: 12px 0;
+	border-bottom: 1px solid $background-alt-color;
+
+	&:first-child {
+		padding-top: 0;
+	}
+
+	&:last-child {
+		border-bottom: 0;
+	}
+}
+
+.cv-education__year {
+	flex: 0 0 auto;
+	font-weight: $bold-weight;
+	color: $accent-color;
+	white-space: nowrap;
+}
+
+.cv-education__text {
+	color: $text-medium-color;
+
+	strong {
+		color: $text-dark-color;
+	}
+}

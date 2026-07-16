@@ -18,11 +18,14 @@ featured_image: /images/telatin-bg.png
 
 <div class="cv-highlights" markdown="1">
 
-<div class="cv-highlight" markdown="1"> <span class="cv-highlight__figure">&gt;500</span> <span class="cv-highlight__title">Hours of training</span> <span 
-class="cv-highlight__text"> 
+<div class="cv-highlight" markdown="1">
+<span class="cv-highlight__figure">&gt;500</span>
+<span class="cv-highlight__title">Hours of training</span>
+<span class="cv-highlight__text">
 I devlivered a number of hands on training, as on-contract professor at the University of Padua, as lead bioinformatician of BMR Genomics, and mostly
 as Head of Bioinformatics at the Quadram Institute.
-</span> </div>
+</span>
+</div>
 
 <div class="cv-highlight" markdown="1">
 <span class="cv-highlight__figure">18+</span>

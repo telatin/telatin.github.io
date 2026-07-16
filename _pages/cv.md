@@ -18,22 +18,27 @@ featured_image: /images/telatin-bg.png
 
 <div class="cv-highlights" markdown="1">
 
-<div class="cv-highlight" markdown="1">
-<span class="cv-highlight__figure">5</span>
-<span class="cv-highlight__title">Bioinformaticians led</span>
-<span class="cv-highlight__text">Head of Bioinformatics at the Quadram Institute Bioscience, steering a team supporting the Institute's strategic research programmes.</span>
-</div>
+<div class="cv-highlight" markdown="1"> <span class="cv-highlight__figure">&gt;500</span> <span class="cv-highlight__title">Hours of training</span> <span 
+class="cv-highlight__text"> 
+I devlivered a number of hands on training, as on-contract professor at the University of Padua, as lead bioinformatician of BMR Genomics, and mostly
+as Head of Bioinformatics at the Quadram Institute.
+</span> </div>
 
 <div class="cv-highlight" markdown="1">
 <span class="cv-highlight__figure">18+</span>
 <span class="cv-highlight__title">Years in genomics &amp; bioinformatics</span>
-<span class="cv-highlight__text">From PhD research on <em>Nannochloropsis</em> genome assembly to leading gut microbiome and metagenomics programmes across academia and industry.</span>
+<span class="cv-highlight__text">I had the privilege of starting my PhD at the beginning of the Next-Generation Sequencing revolution,
+working both in academia and industry to deliver reliable and FAIR methods for the analysis of datasets.
+</span>
 </div>
 
 <div class="cv-highlight" markdown="1">
-<span class="cv-highlight__figure">4</span>
-<span class="cv-highlight__title">EU-funded projects delivered</span>
-<span class="cv-highlight__text">Built sequencing and analysis pipelines for Metable, Aquatrace, Fishboost and MD Paedigree while heading bioinformatics at BMR Genomics.</span>
+<span class="cv-highlight__figure">&gt;100.000</span>
+<span class="cv-highlight__title">Downloads from BioConda</span>
+<span class="cv-highlight__text">
+I contribute to and develop bioinformatics packages for microbial genomics,
+and NGS data handling. Some tools, like SeqFu, have been downloaded thousand times from BioConda.
+</span>
 </div>
 
 </div>
